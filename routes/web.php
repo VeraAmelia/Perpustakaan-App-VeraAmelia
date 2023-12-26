@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PengunjungController;
+use App\Http\Controllers\AuthorController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,8 @@ Route::resource('post', PostController::class);
 Route::resource('pegawai', PegawaiController::class);
 
 Route::resource('pengunjung', PengunjungController::class);
+
+Route::resource('author', AuthorController::class);
 
 
 
